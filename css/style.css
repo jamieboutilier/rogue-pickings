@@ -1,0 +1,169 @@
+
+
+/*BASE STYLES************************************/
+body {
+font-family: 'Montserrat', sans-serif;
+}
+
+/*GRID******************************************/
+.full-width {
+  1200px;
+  margin: 0 auto;
+  }
+
+  .half-width {
+  width: 500;
+  float: left;
+  }
+
+  .third-width: {
+  width: 400px;
+  float: left;
+
+  }
+
+/*HEADER********************************************************************************HEADER*********************/
+
+#header {
+  background-size: cover;
+	height: 110px;
+	margin: 0 auto;
+  padding: 50px;
+}
+
+#header h1{
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;/*30pt*/
+  font-height: 30px;/*23pt*/
+  font-weight: bold;
+	float: left;
+  width: 100px;
+  margin-right: 400px;
+}
+
+
+#header h1 span {
+  color: #77a466;
+}
+
+#header nav ul li{
+display: inline-block;
+color: #77a466;
+font-family: 'Montserrat', sans-serif;
+font-height: 30px;/*23pt*/
+font-size: 10px;/*14pt*/
+font-weight: bold;
+padding: 1px;
+padding-left: 20px;
+width: 100 px;
+float: left;
+}
+
+
+/*ABOUT******************************************************************************ABOUT**********************/
+
+.main-image {
+  width: 1200px;
+  border-bottom: 3px solid #77a466;
+  margin-left: 30px;
+}
+
+#about h2 {
+color: #77a466;
+font-family: 'Montserrat', sans-serif;
+font-height: 29px;/*23.66pt*/
+font-size: 24px;/*18.51pt*/
+height: auto;
+padding-top: : 5px 0;
+margin-left: 28px;
+}
+
+#about p {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-height: 26px;/*21.6pt*/
+  font-size: 22px;/*16.46pt*/
+  font-weight: regular;
+  height: auto;
+  padding-top: 10px;
+  margin-left: 28px;
+}
+/*CONTACT******************************************************************************CONTACT**********************/
+
+#contact {
+  overflow: auto;
+}
+
+.list {
+  float: left;
+  text-align: center;
+  width: 395px;
+  padding: 12px;
+}
+
+.awesome-reviews {
+  width: 395px;
+  float: left;
+  text-align: center;
+  padding: 12px;
+}
+
+.address {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  width: 390px;
+}
+.specials h3{
+  width:200px;
+  text-align: center;
+}
+
+.reviews h3
+{
+  text-align: center;
+}
+
+.contact-us h3 {
+  text-align: left;
+}
+
+.specials .reviews .contact-us h3 {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-height: 35px;/*25.71pt*/
+  font-size: 16px;/*12.34pt*/
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+.reviews-p {
+text-align: left;
+}
+
+.specials-list {
+text-align: left;
+}
+.contact-us-info {
+text-align: left;
+}
+
+
+/*FOOTER******************************************************************************FOOTER**********************/
+#footer {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-height: 29px;/*21.6pt*/
+  font-size: 22px;/*16.46pt*/
+  font-weight: regular;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#footer h3 span {
+  color: #77a466;
+  font-family: wisdom script;
+  text-transform: lowercase;
+}
